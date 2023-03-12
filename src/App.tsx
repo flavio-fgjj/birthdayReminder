@@ -5,7 +5,8 @@ import {StatusBar, useColorScheme, View} from 'react-native';
 
 import {getStatusBarHeight} from 'react-native-status-bar-height';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
-import Routes from '@routes/index.routes';
+import Routes from './routes/index.routes';
+
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
