@@ -1,7 +1,7 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React, {FC} from 'react';
 
-import HomeScreen from '../screens/index'
+import HomeScreen from '../screens/Home/index'
 import {RoutesName} from './routesName.routes';
 import {RootStackParamList} from '.';
 
