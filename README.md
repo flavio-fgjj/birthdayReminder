@@ -25,7 +25,8 @@ Consulte **[Recomendação](#-recomenda%C3%A7%C3%A3o)** para saber como rodar o 
 
 ## 📦 Recomendação
 
-Fazer clone a partir da branch master
+* Fazer clone a partir da branch master
+* Instalar dependências
 
 ## 🛠️ Start Android
 
