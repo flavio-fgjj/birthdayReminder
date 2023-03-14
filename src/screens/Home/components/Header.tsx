@@ -4,7 +4,7 @@ import { View, Image, StyleSheet, Dimensions } from 'react-native';
 const Header = () => {
   return <>
     <View style={estilos.topo}>
-      <Image source={require('../../../assets/images/logo1.png')} style={estilos.imagem} />
+      <Image source={require('../../../assets/images/banner.png')} style={estilos.imagem} />
     </View>    
   </>
 }
