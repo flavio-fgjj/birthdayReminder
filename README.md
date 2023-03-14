@@ -28,15 +28,15 @@ Consulte **[Recomendação](#-recomenda%C3%A7%C3%A3o)** para saber como rodar o 
 * Fazer clone a partir da branch master
 * Instalar dependências
 
-## 🛠️ Start Android
+## 🖖 Start Android
 
-* react-native start --reset-cache
-* react-native run-android
+* npx react-native start --reset-cache
+* npx react-native run-android
 
-## 🛠️ Start iOS
+## 🖖 Start iOS
 
-* react-native start --reset-cache
-* react-native run-ios
+* npx react-native start --reset-cache
+* npx react-native run-ios
 
 ## 🖥️ Telas
 
