@@ -9,12 +9,16 @@ export default function useBirthdays() {
     let today = new Date();
 
     useEffect(() => {
-			const ret = loadBirthDays();
+			const  ret = loadBirthDays();
 
 			let past: Array<BirthdayModel> = [];
 			let willBeOrToday: Array<BirthdayModel> = [];
 
 			ret.map((x) => {				
+				if (x.name == 'Tracker') {
+					x.date = new Date()
+				}
+				
 				let dtBirthday = new Date(`${today.getFullYear()}-${x.date.getUTCMonth() + 1}-${x.date.getUTCDate()} 00:00:00`);
 				
 				// console.log(x.name)
